@@ -1,0 +1,38 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	background-color: lightblue;
+}
+
+.container {
+
+}
+
+
+header img{
+
+}
+
+nav{
+
+	
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: black;
+
+
+
+}
+
+a{
+
+	color:red;
+	text-decoration: none;
+	stroke: black;
+
+}
