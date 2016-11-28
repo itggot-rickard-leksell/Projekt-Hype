@@ -3,7 +3,9 @@ body {
     flex-direction: row;
     justify-content: center;
     margin: 0;
-    background-color: darkblue;
+    background-image: url(../img/bakgrund.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container{
@@ -57,10 +59,6 @@ header{
     background-color: purple;
 }
 
-.body{
-    background-color: yellow;
-    flex-grow: 3;
-}
 
 .bigbody{
     background-color: lightcoral;
