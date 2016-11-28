@@ -59,6 +59,11 @@ header{
     background-color: purple;
 }
 
+.body{
+    background-color: yellow;
+    flex-grow: 2;
+}
+
 
 .bigbody{
     background-color: lightcoral;
