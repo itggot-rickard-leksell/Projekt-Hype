@@ -7,13 +7,16 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: "Raleway", sans-serif;
+
 }
 
 .container{
     display: flex;
     flex-direction: column;
+    max-width: 1600px;
+    max-height: 900px;
     width: 990px;
-    height: 900px;
+    height: 900px;   
     align-items: stretch;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -29,6 +32,7 @@ header{
   justify-content: center;
   border-bottom: solid black 1px;
   border-top: solid black 1px;
+
 
 
 
@@ -119,9 +123,17 @@ hr{
 }
 
 footer{
-    flex-grow: 2;
+    flex-grow: 0.3;
     background-color: black;
 
+}
+footer h1{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 20px;
+  
 }
 
 section{
@@ -136,3 +148,4 @@ article{
     flex-direction: row;
     justify-content: center;
 }
+
