@@ -1,0 +1,69 @@
+.bigbody{
+	display: flex;
+	flex-direction: column;
+}
+.titel hr{
+	width: 500px;	
+}
+.biggest{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.biggest h2 {
+	color: gray;
+	font-size: 25px;
+	margin: 20px;
+	margin-top: 50px;	
+}
+.biggest input{
+	font-size: 17px;
+	width: 250px;
+	height: 20px;
+	margin-bottom: 60px;
+	
+}
+.button1{
+	width: 100px;
+	height: 25px;
+	margin-bottom: 60px;
+}
+
+.biggest img{
+	
+
+}
+
+
+.first{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+	flex-grow: 1;
+
+
+}
+.second{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+
+}
+
+.button2{
+	width: 200px;
+	height: 60px;
+}
+.button3{
+	height: 50px;
+	width: 100px;
+
+   background-color: green;
+   color:white;
+
+}
+
+
+
+
+
