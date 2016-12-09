@@ -32,20 +32,16 @@
 					* {box-sizing:border-box}
 					
 					.mySlides {display:none}
-
-					/* Slideshow container */
 					.slideshow-container {
 						max-width: 400px;
 						position: relative;
 						margin: auto;
 					}
-
-					/* Next & previous buttons */
 					.prev, .next {
 						cursor: pointer;
 						position: absolute;
 						top: 50%;
-						width: auto;
+						width: all;
 						padding: 16px;
 						margin-top: -22px;
 						color: black;
@@ -55,66 +51,51 @@
 						border-radius: 0 3px 3px 0;
 
 					}
-
-					/* Position the "next button" to the right */
 					.next {
 						right: 0;
 						border-radius: 3px 0 0 3px;
 					}
-
-					/* On hover, add a black background color with a little bit see-through */
 					.prev:hover, .next:hover {
 						background-color: rgba(0,0,0,0.5);
 					}
-
-					
-					/* Fading animation */
 					.fade {
 						-webkit-animation-name: fade;
-						-webkit-animation-duration: 1.5s;
+						-webkit-animation-duration: 1.25s;
 						animation-name: fade;
-						animation-duration: 1.5s;
+						animation-duration: 1.25s;
 					}
-
 					@-webkit-keyframes fade {
 						from {opacity: .4} 
 						to {opacity: 1}
 					}
-
 					@keyframes fade {
 						from {opacity: .4} 
 						to {opacity: 1}
 					}
-
-					/* On smaller screens, decrease text size */
 					@media only screen and (max-width: 300px) {
 						.prev, .next,.text {font-size: 11px}
 					}
 				</style>
 				<body>
-
 					<div class="slideshow-container">
-
 						<div class="mySlides fade">
-							<img src="./img/bild_2.jpg" style="">
+							<img src="./img/gallery1.jpg" style="">
+							<div class="text">Rear</div>
 						</div>
-
 						<div class="mySlides fade">	
-							<img src="./img/bild_3.jpg" style="">	
+							<img src="./img/gallery2.jpg" style="">	
+							<div class="text">Seat</div>
 						</div>
 
 						<div class="mySlides fade">
-							<img src="./img/bild_4.jpg" style="">
+							<img src="./img/gallery3.jpg" style="">
+							<div class="text">Open Pod</div>
 						</div>
 
 						<a class="prev" onclick="plusSlides(-1)">❮</a>
 						<a class="next" onclick="plusSlides(1)">❯</a>
-
 					</div>
 					<br>
-
-			
-
 					<script>
 						var slideIndex = 1;
 						showSlides(slideIndex);
@@ -130,7 +111,7 @@
 						function showSlides(n) {
 							var i;
 							var slides = document.getElementsByClassName("mySlides");
-						
+
 							if (n > slides.length) {slideIndex = 1}    
 								if (n < 1) {slideIndex = slides.length}
 									for (i = 0; i < slides.length; i++) {
@@ -138,7 +119,7 @@
 									}
 									
 									slides[slideIndex-1].style.display = "block";  
-							
+
 								}
 							</script>
 

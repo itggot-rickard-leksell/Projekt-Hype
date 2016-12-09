@@ -24,15 +24,20 @@
 	
 }
 .button1{
-	width: 100px;
-	height: 25px;
+	width: 120px;
+	height: 35px;
 	margin-bottom: 60px;
 }
 
-.biggest img{
-	
+.button1 img{
 
 }
+
+.biggest img{
+
+}
+
+
 
 
 .first{
@@ -51,9 +56,19 @@
 }
 
 .button2{
-	width: 200px;
-	height: 60px;
+	
+	width: 342px;
+	height: 73px;
+
 }
+
+.button2 img{
+
+	margin-left: -12px;
+	margin-top: -6px;
+
+}
+
 .button3{
 	height: 50px;
 	width: 100px;

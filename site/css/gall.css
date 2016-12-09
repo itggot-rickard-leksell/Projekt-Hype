@@ -16,10 +16,26 @@
 
 .slideshow-container img{
 
-   margin-top: 40px;
-   width: 100%;
-   border: 2px solid black;
-   box-shadow: 0 3px 10px rgba(000, 0, 0, 1);
+	margin-left: 48px;
+	margin-top: 40px;
+	border: 2px solid black;
+	box-shadow: 0 3px 10px rgba(000, 0, 0, 1);
 
+}
+
+.text {
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	text-shadow:
+	-1px -1px 0 black,
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black; 
 }
 
