@@ -1,6 +1,7 @@
 .bigbody{
 	display: flex;
 	flex-direction: column;
+
 }
 .titel hr{
 	width: 500px;	
@@ -16,7 +17,8 @@
 	margin: 20px;
 	margin-top: 50px;	
 }
-.biggest input{
+
+.mail{
 	font-size: 17px;
 	width: 250px;
 	height: 20px;
@@ -29,54 +31,47 @@
 	margin-bottom: 60px;
 }
 
-.button1 img{
-
-}
-
-.biggest img{
-
-}
-
-
-
-
 .first{
 	display: flex;
 	flex-direction: column;
-    justify-content: space-between;
+	justify-content: space-between;
 	flex-grow: 1;
-
-
 }
+
+.first button{
+
+	width: 250px;
+	height: 50px;
+	font-weight: bold;
+}
+
+
 .second{
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
-
 }
 
-.button2{
-	
+.button2{	
 	width: 342px;
-	height: 73px;
-
+	height: 7px;
 }
 
 .button2 img{
-
 	margin-left: -12px;
 	margin-top: -6px;
-
 }
 
 .button3{
 	height: 50px;
 	width: 100px;
-
-   background-color: green;
-   color:white;
-
+	background-color: green;
+	color:white;
+	font-size: 15px;
 }
+
+
+
 
 
 

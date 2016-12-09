@@ -30,34 +30,43 @@
 				</div>
 				<div class="biggest">	
 					<div class="first">
-						<center><h2> 1. Enter Your Email-Adress</h2>	
-							<input type="text" placeholder="Email-Adress"><br>
-							<h2 class= "tjo"> 3. Verify That You Are Human</h2>
-							<button class="button2" type="button">
-								<img src="./img/Recaptcha_anchor_start.gif">
-							</button>
+						<center><h2> 1. Enter Your Email-Adress</h2><input class="mail" type="text" placeholder="Email-Adress"><br>
+
+							<h2> 3. Verify That You Are Human</h2> 
+							<button onclick="verify()" id = "1">Verify That You Are Not A Robot</button>
 						</center>
 					</div>
 					<div class="second">		
 						<center><h2> 2. Choose Payment Method </h2>
 							<button class="button1" type="button"><img src="./img/Paypal-Logo-Transparent-png-format-large-size.gif"></button>
 							<button class="button1" type="button"><img src="./img/visa-logo-new.gif"></button>
-							<h2 class= "tjo"> 4. Proceed To Checkout</h2>
+							<h2> 4. Proceed To Checkout</h2>
 							<button class="button3" type="button" onclick="minfunktion()">Checkout</button>
 							<script>  
+
+								function verify(){
+									document.getElementById("1").innerHTML="VERIFIED ✔";
+									document.getElementById("1").style.color="green";
+
+
+								}
+								
 								function minfunktion() {
 									alert("Thanks For Purchasing a Podride!");
-								}</script>
-							</center>
-						</div>
+
+								}
+
+							</script>
+						</center>
 					</div>
 				</div>
 			</div>
-			<footer>
-				<h1>
-					© Copyright RickardMohammad Inc.
-				</h1>
-			</footer>
 		</div>
-	</body>
-	</html>
+		<footer>
+			<h1>
+				© Copyright RickardMohammad Inc.
+			</h1>
+		</footer>
+	</div>
+</body>
+</html>

@@ -8,6 +8,8 @@ body {
     background-size: cover;
     font-family: "Raleway", sans-serif;
 
+
+
 }
 
 .container{
@@ -21,6 +23,7 @@ body {
     border-left: 1px solid black;
     border-right: 1px solid black;
     box-shadow: 0 16px 20px rgba(000, 0, 0, 1);
+
     
 
 
@@ -73,6 +76,7 @@ header{
     transition: 0.2s;
     padding: 0pt 24pt 0pt 24pt;
 
+
 }
 
 .between a:hover {
@@ -86,12 +90,14 @@ header{
 .body{
     background-color: white;
     flex-grow: 0.1;
+    background-color: rgba(255, 255, 255, 0.97);
 }
 
 
 .bigbody{
     background-color: white;
     flex-grow: 70;
+    background-color: rgba(255, 255, 255, 0.97);
 
 }
 
@@ -99,6 +105,7 @@ footer{
     flex-grow: 0.3;
     background-color: black;
     max-height: 75px;
+    background-color: rgba(255, 255, 255, 0.97);
 
 }
 footer h1{
