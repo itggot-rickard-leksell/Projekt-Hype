@@ -90,14 +90,14 @@ header{
 .body{
     background-color: white;
     flex-grow: 0.1;
-    background-color: rgba(255, 255, 255, 0.97);
+ 
 }
 
 
 .bigbody{
     background-color: white;
     flex-grow: 70;
-    background-color: rgba(255, 255, 255, 0.97);
+    
 
 }
 
@@ -105,7 +105,7 @@ footer{
     flex-grow: 0.3;
     background-color: black;
     max-height: 75px;
-    background-color: rgba(255, 255, 255, 0.97);
+  
 
 }
 footer h1{
